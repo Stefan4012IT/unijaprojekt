@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+// Base styles
+
+@import './base/reset';
+@import './base/variables';
+
+// Layout styles
+@import './layout/grid';
+@import './layout/container';
+
+// Component styles
+@import './components/button';
+@import './components/header';
+
+// Pages styles
+@import './pages/GreetingPage.scss';
+
+@import './pages/Arhchitecture.scss';
