@@ -50,13 +50,13 @@ const GreetingPage = () => {
       <div className="img_box">
         <img src={arhitektura_1} alt="arhitektura" className='img_arhitektura'/>
         <img src={arhitektura_2} alt="arhitektura_text" className='img_arhitektura_text'/>
-        {/* <img src={arhitektura_3} alt="arhitektura_circle" className='img_arhitektura_circle'/> */}
+        <img src={arhitektura_3} alt="arhitektura_circle" className='img_arhitektura_circle'/>
         <img src={alhemija_1} alt="alhemija" className='img_alhemija'/>
         <img src={alhemija_2} alt="alhemija" className='img_alhemija_text'/>
-        {/* <img src={alhemija_3} alt="alhemija" className='img_alhemija_circle'/> */}
+        <img src={alhemija_3} alt="alhemija" className='img_alhemija_circle'/>
         <img src={alternativa_1} alt="alternativa" className='img_alternativa'/>
         <img src={alternativa_2} alt="alternativa_text" className='img_alternativa_text'/>
-        {/* <img src={alternativa_3} alt="alternativa_circle" className='img_alternativa_circle'/> */}
+        <img src={alternativa_3} alt="alternativa_circle" className='img_alternativa_circle'/>
 
         <img src={unijaprojekt_1} alt="unijaprojekt" className='img_unijaprojekt'/>
         <img src={unijaprojekt_2} alt="unijaprojekt_text" className='img_unijaprojekt_text'/>
