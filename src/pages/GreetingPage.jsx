@@ -17,6 +17,7 @@ import alternativa_3 from '../assets/logoes/alternativa/alternativa_3.svg'
 import alhemija_1 from '../assets/logoes/alhemija/alhemija_1.svg'
 import alhemija_2 from '../assets/logoes/alhemija/alhemija_2.svg'
 import alhemija_3 from '../assets/logoes/alhemija/alhemija_3.svg'
+import background_img from '../assets/img/grid-line-paper-background.jpg'
 
 const GreetingPage = () => {
   return (

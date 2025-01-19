@@ -1,4 +1,4 @@
-$side: 600px; // Dužina stranice trougla
+$side: 550px; // Dužina stranice trougla
 $height: calc(#{$side} * sqrt(3) / 2); // Visina trougla
 $center-x: 50%; // Centar trougla X
 $center-y: 50%; // Centar trougla Y
@@ -22,7 +22,9 @@ $C-y: calc(#{$center-y} - #{$center-to-top});
     position: relative;
     width: 100%;
     height: 100vh;
-    background-color: #fdfdfd;
+    background-color: #FFF;
+    // background: url('../../assets/img/grid-line-paper-background.jpg');
+    background-size: cover;
     overflow: hidden;
     user-select: none;
   
@@ -36,12 +38,12 @@ $C-y: calc(#{$center-y} - #{$center-to-top});
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: #fdfdfd;
       color: #101010;
       text-align: center;
       // border: 1px solid #def12d;
       // border-width: thin;
       transition: all .1s;
+      z-index: -1;
   
       h1 {
         font-size: 1.5rem;
