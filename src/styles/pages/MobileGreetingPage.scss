@@ -1,0 +1,64 @@
+@import '../base/variables';
+
+.mobile-greeting-content {
+    // height: calc(100vh - $mobile-header-height);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    .mobile-box {
+        height: 25%;
+
+        &.mobile-box-unijaprojekt {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .img_unijaprojekt, .img_unijaprojekt_text, .img_unijaprojekt_circle {
+                position: absolute;
+                height: 100%;
+                padding: 15px;
+            }
+        }
+
+        &.mobile-box-architecture {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .img_arhitektura, .img_arhitektura_text, .img_arhitektura_circle {
+                position: absolute;
+                height: 100%;
+                padding: 15px;
+            }
+
+        } 
+
+        &.mobile-box-alchemy {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .img_alhemija, .img_alhemija_text, .img_alhemija_circle {
+                position: absolute;
+                height: 100%;
+                padding: 15px;
+            }
+        }
+
+        &.mobile-box-alternative {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .img_alternativa, .img_alternativa_text, .img_alternativa_circle {
+                position: absolute;
+                height: 100%;
+                padding: 15px;
+            }
+        }
+    }
+}
+

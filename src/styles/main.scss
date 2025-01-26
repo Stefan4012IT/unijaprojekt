@@ -12,8 +12,10 @@
 // Component styles
 @import './components/button';
 @import './components/header';
+@import './components/mobileGreetingHeader';
 
 // Pages styles
 @import './pages/GreetingPage.scss';
+@import './pages/MobileGreetingPage.scss';
 
 @import './pages/Arhchitecture.scss';
