@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/unijaprojekt/static/css/main.af130201.css",
-    "main.js": "/unijaprojekt/static/js/main.8eaa7b2f.js",
+    "main.css": "/unijaprojekt/static/css/main.e28916cb.css",
+    "main.js": "/unijaprojekt/static/js/main.78f04873.js",
+    "static/media/IMG_20250222_111143_copy.jpg": "/unijaprojekt/static/media/IMG_20250222_111143_copy.b1a1e5e4edfdb90b9c61.jpg",
     "static/media/grid-line-paper-background.jpg": "/unijaprojekt/static/media/grid-line-paper-background.8324d1c3cfc3c1414a9a.jpg",
     "static/media/unijaprojekt_5.svg": "/unijaprojekt/static/media/unijaprojekt_5.5c00e3fe45813edc9dc163b5ac7bcb16.svg",
     "static/media/unijaprojekt_4.svg": "/unijaprojekt/static/media/unijaprojekt_4.5c0a32ddf520560cd9b6b161fb122034.svg",
@@ -18,11 +19,11 @@
     "static/media/alternativa_3.svg": "/unijaprojekt/static/media/alternativa_3.a01dc6c8df51334b41fa91d10cf73dd8.svg",
     "index.html": "/unijaprojekt/index.html",
     "static/media/unijaprojekt_1.svg": "/unijaprojekt/static/media/unijaprojekt_1.cc98480ce034e5095a5295808be6b059.svg",
-    "main.af130201.css.map": "/unijaprojekt/static/css/main.af130201.css.map",
-    "main.8eaa7b2f.js.map": "/unijaprojekt/static/js/main.8eaa7b2f.js.map"
+    "main.e28916cb.css.map": "/unijaprojekt/static/css/main.e28916cb.css.map",
+    "main.78f04873.js.map": "/unijaprojekt/static/js/main.78f04873.js.map"
   },
   "entrypoints": [
-    "static/css/main.af130201.css",
-    "static/js/main.8eaa7b2f.js"
+    "static/css/main.e28916cb.css",
+    "static/js/main.78f04873.js"
   ]
 }
