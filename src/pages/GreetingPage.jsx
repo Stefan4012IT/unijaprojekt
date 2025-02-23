@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Arhchitecture from './Arhchitecture';
+import Arhchitecture from './Architecture';
 import unijaprojekt_1 from '../assets/logoes/unijaprojekt_1.svg'
 import unijaprojekt_2 from '../assets/logoes/unijaprojekt_2.svg'
 import unijaprojekt_3 from '../assets/logoes/unijaprojekt_3.svg'
