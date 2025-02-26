@@ -11,7 +11,6 @@ const App = () => {
     <Router>
       <Routes>
         {width <= 768 ? <Route path="/" element={<MobileGreetingPage />} /> : <Route path="/" element={<GreetingPage />} />}
-        {/* <Route path="/" element={<GreetingPage />} /> */}
         <Route path="/architecture" element={<Architecture />} />
       </Routes>
     </Router>
