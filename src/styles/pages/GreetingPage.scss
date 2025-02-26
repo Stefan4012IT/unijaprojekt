@@ -362,6 +362,7 @@ $C-y: calc(#{$center-y} - #{$center-to-top});
       // border: 1px solid #def12d;
       // border-width: thin;
       transition: all .1s;
+      z-index: 1000;
 
       &:hover {
         // border-bottom: 1px solid #def12d;

@@ -1,0 +1,63 @@
+.desktop-header {
+    width: 100%;
+    height: 120px;
+
+    background-color: #FFF;
+    border-bottom: 1px solid #000;
+    box-shadow: 0 5px 20px 2px rgba(0,0,0,0.2);
+
+
+    .desktop-nav--content {
+        position: relative;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+        .lang-text {
+            font-size: 2rem;
+            font-weight: 500;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        .logo-box {
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+
+            img {
+                position: absolute;
+                height: 100%;
+            }
+        }
+
+        .nav-links {
+            height: 100%;
+            width: 40%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            
+            a {
+                font-weight: 500;
+                font-size: 2.4rem;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+            
+        }
+    }
+}

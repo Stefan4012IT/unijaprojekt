@@ -24,15 +24,13 @@ const GreetingPage = () => {
     <div className="greeting-page">
       {/* Gornji blok */}
       
-      <div className="greeting-page__block_invisible">
-      <Link to="/architecture">
+      <Link to="/architecture" className="greeting-page__block_invisible">
         <div className="greeting-page__block greeting-page__block--top">
             {/* <img src={arhitektura_1} alt="arhitektura" /> */}
             {/* <img src={arhitektura_2} alt="arhitektura" /> */}
             {/* <img src={arhitektura_3} alt="arhitektura" /> */}
         </div>
         </Link>
-      </div>
       
 
       {/* Donji blokovi */}

@@ -2,12 +2,12 @@
 
 // Base styles
 
-@import './base/reset';
+@import './base/base';
 @import './base/variables';
 
 // Layout styles
 @import './layout/grid';
-@import './layout/container';
+@import './layout/layout';
 
 // Component styles
 @import './components/button';
@@ -18,4 +18,4 @@
 @import './pages/GreetingPage.scss';
 @import './pages/MobileGreetingPage.scss';
 
-@import './pages/Arhchitecture.scss';
+@import './pages/Architecture.scss';

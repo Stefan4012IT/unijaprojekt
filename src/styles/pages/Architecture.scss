@@ -1,0 +1,33 @@
+.arhchitecture {
+    .header-section {
+        position: relative;
+        width: 100%;
+        height: calc(100dvh - var(--visina-headera));
+        background-color: sienna;
+        background-image: url(../../assets/img/fantasy-architecture-forward-sci-fi-bi.png);
+        background-position: 50% 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        min-height: 500px;
+    
+        .mani-heading {
+            position: absolute;
+            text-align: center;
+            left: 50%;
+            bottom: 0%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            // background-color: #FFF;
+            // border: 1px solid #000;
+            // padding: 10px;
+        }
+    }
+
+
+    .about-section {
+        margin: 70px 0;
+        min-height: 100vh;
+    }
+
+}

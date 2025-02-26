@@ -1,6 +1,6 @@
 import React from 'react';
 import MobileGreetingHeader from '../components/MobileGreatingHeader';
-
+import { Link } from 'react-router-dom';
 import unijaprojekt_1 from '../assets/logoes/unijaprojekt_1.svg'
 import unijaprojekt_2 from '../assets/logoes/unijaprojekt_2.svg'
 import unijaprojekt_3 from '../assets/logoes/unijaprojekt_3.svg'
@@ -24,11 +24,11 @@ const MobileGreetingPage = () => {
             <img src={unijaprojekt_2} alt="unijaprojekt_text" className='img_unijaprojekt_text'/>
             <img src={unijaprojekt_3} alt="unijaprojekt_circle" className='img_unijaprojekt_circle'/>
         </div>
-        <div className="mobile-box mobile-box-architecture">
+        <Link to="/architecture" className="mobile-box mobile-box-architecture">
             <img src={arhitektura_1} alt="arhitektura" className='img_arhitektura'/>
             <img src={arhitektura_2} alt="arhitektura_text" className='img_arhitektura_text'/>
             <img src={arhitektura_3} alt="arhitektura_circle" className='img_arhitektura_circle'/>
-        </div>
+        </Link>
         <div className="mobile-box mobile-box-alchemy">
             <img src={alhemija_1} alt="alhemija" className='img_alhemija'/>
             <img src={alhemija_2} alt="alhemija" className='img_alhemija_text'/>
